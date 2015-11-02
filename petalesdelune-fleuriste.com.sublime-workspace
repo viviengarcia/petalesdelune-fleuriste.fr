@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"iMG",
+				"img	Tag"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"output_",
+				"output_html"
+			],
+			[
+				"outp",
+				"outputfile"
+			],
+			[
+				"outpu",
+				"output_file"
+			],
+			[
+				"outu",
+				"output_file"
+			],
+			[
+				"file",
+				"file_content"
+			],
+			[
+				"html",
+				"html_list_of_posts"
+			],
+			[
+				"template",
+				"template_list"
+			],
+			[
+				"templ",
+				"template_data"
+			],
+			[
+				"app",
+				"appdir"
+			],
+			[
+				"c",
+				"contentsdir"
+			],
+			[
+				"post",
+				"posts_list"
+			],
+			[
+				"sb_ne",
+				"sb_new_list"
+			],
+			[
+				"sb_te",
+				"sb_test_var_1"
+			],
+			[
+				"sb_list",
+				"sb_list_of_files"
+			],
+			[
+				"sb_lis",
+				"sb_listof_links"
+			],
+			[
+				"sbli",
+				"sb_list_to_dict"
+			],
+			[
+				"sb",
+				"sb_tmp"
+			],
+			[
+				"lf_",
+				"lf_thefile"
+			],
+			[
+				"lf",
+				"lf_postlist"
+			],
+			[
+				"lf_work",
+				"lf_workdir"
+			],
+			[
+				"lf_path",
+				"lf_path_wdir"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"mark",
+				"Marked"
+			],
+			[
+				"mar",
+				"Marked"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"marked",
+				"Marked"
+			],
+			[
+				"marke",
+				"Marked"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"tab",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"markes",
+				"MarkdownEditing: Switch List Bullet Type"
+			],
+			[
+				"shj",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"synthtmjin",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"synjin",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"syntax jin",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 570.0
+	},
+	"console":
+	{
+		"height": 373.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/OSX Data/Users/vivien/Ressources/Informatique/Mac OSX/Apps/Medias/Jeux/Minecraft/Let's Plays/Mythgarthr/1/Project/Mod list/modlist.php",
+		"/Volumes/OSX Data/Users/vivien/Sites/Web/Zaynab/zaynab-v3/products-list.php",
+		"/Volumes/OSX Data/Users/vivien/Desktop/tarte au citron.md",
+		"/Volumes/OSX Data/Users/vivien/Dropbox/Applications/Marked/__out/Fiche Descriptive.css",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/30A96F98-3DBA-427E-8BE0-E6DF991BAF0A/ComputerCraft.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/0CAB94FD-6E67-4370-A90D-8D31422A7A55/server.properties",
+		"/Volumes/OSX Data/Users/vivien/.bash/aliases",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/5FD2B291-BDBB-4DB6-A35B-C1C7DB8DB8F9/crash-2015-09-09_12.21.01-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/2E3A37AC-ACFA-4B72-A953-7E4216AAB723/common.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/560835A4-30F2-4AED-8667-2249CCECDB3E/crash-2015-09-08_09.18.00-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/26D06B8C-9EAD-4217-BB7F-4201223D6CAB/crash-2015-09-08_09.18.00-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/F63A34A3-827E-4482-9536-6BE52685D330/EnderZoo.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/6D244175-DF30-40AA-A209-58E9E31FE25F/crash-2015-09-07_21.03.41-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/9E4276EF-F226-4602-9772-45D3803A80E2/crash-2015-09-06_19.27.18-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/2B28FAA6-9B5D-4777-9061-0F434780A7EB/Thaumcraft.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/5F015BA3-F9CC-410A-96B9-D22B5F718682/crash-2015-09-06_10.03.27-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/229CD614-FE7E-4E7D-A61B-117DC7FED519/crash-2015-09-06_16.31.30-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/B457F28C-1BC4-4C05-BCEB-950CC25A2514/crash-2015-09-06_17.45.13-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Downloads/minetweaker.log",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/12D7F295-A877-4C60-86A4-89073B459A84/praxis.zs",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/A4C33BDB-2F2A-465E-B684-0AEA16154AF8/crash-2015-09-05_14.11.45-server.txt",
+		"/Volumes/OSX Data/Users/vivien/Desktop/praxis8",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/BA5CDEDF-6F65-455B-9BD4-4D8560DEE06F/microblocks.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/Praxis - Submit/minecraft/config/microblocks.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/Praxis - Submit/minecraft/minetweaker.log",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/F2CB7F0E-84CF-419E-B0EB-29BDD4C0D5A0/ComputerCraft.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/Praxis - Submit/minecraft/saves/NEI/local/New World/NEI.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/400F668C-6B06-4051-85E5-0F13A2CEDC5B/ImmersiveEngineering.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/3DD8CD95-81DD-4F8A-A9E0-D0AAA258E02F/microblocks.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/5AB73B3E-79CF-402D-A4D1-C04005B4C845/multipart.cfg",
+		"/Volumes/OSX Data/Users/vivien/Desktop/untitled folder 3/316fe9ec-cc61-474b-a58b-d7d4a0d744a3.dat",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/Praxis - Submit/minecraft/crash-reports/crash-2015-09-01_13.35.08-client.txt",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/Praxis - Submit/minecraft/config/TwilightForest.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/CC68D81C-0E30-4D7F-9EF5-55986F8FC336/TwilightForest.cfg",
+		"/Volumes/OSX Data/Users/vivien/Desktop/untitled folder 3/uid.dat",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/Praxis - Submit/patches/net.minecraftforge.json",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/Darking Test/patches/net.minecraft.json",
+		"/Applications/FTB/FTBInfinity/minecraft/config/malisisdoors.cfg",
+		"/Applications/FTB/FTBInfinity/minecraft/saves/NEI/local/New World/NEI.cfg",
+		"/Volumes/OSX Data/Users/vivien/.bash_profile",
+		"/Applications/FTB/FTBInfinity/minecraft/config/IguanaTinkerTweaks/restrictions.cfg",
+		"/Applications/FTB/FTBInfinity/minecraft/config/IguanaTinkerTweaks/Modules.cfg",
+		"/Applications/FTB/FTBInfinity/minecraft/config/IguanaTinkerTweaks/main.cfg",
+		"/Applications/FTB/FTBInfinity/minecraft/config/MrTJPCore.cfg",
+		"/Applications/FTB/FTBInfinity/minecraft/config/ProjectRed.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Containers/it.bloop.airmail2/Data/Library/Application Support/Airmail/General/Tmp/2015-07-01-4.log",
+		"/private/etc/hosts",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/645B92E4-840A-4476-9BB9-DD07E33C15D7/disabled.html",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/6FF7073F-041B-4DFA-861B-2DB86EA7F22F/cauldron.yml",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/E1F2B04E-7E3F-4CC9-83FB-884554D4E525/OpenBlocks.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/FFFFB350-0A3B-4653-BF44-7748B407D92A/OpenMods.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/1457B406-3F7D-4856-B6B2-72B3D9A57D0E/index.html",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/62265D9B-2EA7-4363-8AC7-F746E62A614D/main.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/C15F9CF7-F2E4-4766-9C8E-FC8DCDA1C3F1/neresources.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/5E44AB4F-0E8B-4C8A-AD4F-AD56307A2CB6/index.html",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/52EE9AAF-3D93-423E-BB5B-95D8F989C26D/.bashrc",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/25DA2C22-BB29-4CC2-B4BF-39532CC19ED8/white-list.txt.converted",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/15EBA9BB-EF85-4475-AB90-06BBDA1744A9/.bashrc",
+		"/Volumes/OSX Data/Users/vivien/Ressources/Informatique/Mac OSX/Apps/Medias/Jeux/Minecraft/Let's Plays/Mythgarthr/1/Project/Episodes/Episodes.md",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/B24733B4-F083-413B-A13A-E455F334CB67/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/F211665B-7EA8-42D8-B2D8-DA61551B5521/atg.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/CC26B8F5-3FF5-4A5E-AAD7-F74F8C459686/generator.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/F299D752-2673-4A01-B767-650763A2CC29/TwilightForest.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/D165D4D2-BDF0-4EB9-88A7-CDE9CFE27389/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/03F3265A-5897-4113-B488-956B3B9DB3CE/white-list.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/719A0648-E6E6-4D9C-94BF-A7E535E0F8CB/ops.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/88047BD9-1971-4790-9177-E94C98EFCA02/kcauldron version",
+		"/Volumes/OSX Data/Users/vivien/Ressources/Informatique/Mac OSX/Apps/Medias/Jeux/Minecraft/Let's Plays/Mythgarthr/1/Project/Mod list/sprite-pictos.css",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/9FD016B1-D870-4AC8-A8A1-47F19BCDBB97/page-home.php",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/26E7AD65-7DA0-4DCF-9E36-0F5E0DC56C99/.bashrc",
+		"/Applications/FTB/FTBInfinity/minecraft/config/DraconicEvolution.cfg",
+		"/Applications/FTB/FTBInfinity/minecraft/config/ExtraUtilities.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/8E586AFB-06EA-4493-8A8D-77C8FB1C3384/.bashrc",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/41716B8B-7A44-4DCB-BB27-5D90A7CDF10F/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/897A17A7-1BA5-4F33-BBE1-540F8757812A/eula.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/056D9E9E-CA46-4C4A-89BC-7B708E1BAFD0/eula.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/792E2A0F-B93A-4BBF-B377-337437E64132/.bashrc",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/70A7FDA4-3783-434B-BD33-654253972AA7/AromaBackup.cfg",
+		"/Volumes/OSX Data/Users/vivien/Desktop/Aldapeko sagarraren Aldarraren punta.md",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/B850E984-0D6C-4EA0-A13A-D64F9F64472B/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/428C87AF-6678-42F5-B048-AE75759BAC35/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/D23657E2-42E3-41EF-B36E-FAB247CB2421/Crafting.zs",
+		"/Volumes/OSX Data/Users/vivien/Desktop/Aldapeko sagarraren Aldarraren punta.md\n####*Au bout de la branche du pommier d'Aldapeko (lieu dit)*\n\n\nAldapeko sagarraren\nAldarraren puntan,\nPuntaren puntan,\nTxoria segoen kantari.\n\n*A bout de la branche du pommier d'Aldapeko\n",
+		"/Volumes/OSX Data/Users/vivien/Ressources/Informatique/Mac OSX/Apps/Medias/Jeux/Minecraft/Let's Plays/Mythgarthr/1/Project/Mod list/Aldapeko sagarraren Aldarraren punta.md\n####*Au bout de la branche du pommier d'Aldapeko (lieu dit)*\n\n\nAldapeko sagarraren\nAldarraren puntan,\nPuntaren puntan,\nTxoria segoen kantari.\n\n*A bout de la branche du pommier d'Aldapeko\n",
+		"/Volumes/OSX Data/Users/vivien/Ressources/Informatique/Mac OSX/Apps/Medias/Jeux/Minecraft/Let's Plays/Mythgarthr/1/Project/Mod list/Liste des mods.md",
+		"/Volumes/OSX Data/Users/vivien/Ressources/Informatique/Mac OSX/Apps/Medias/Jeux/Minecraft/Let's Plays/Mythgarthr/1/Project/Description/Project.md",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/60F5994E-46D8-4BDF-92C4-41E9EF1261B3/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Ressources/Informatique/Mac OSX/Apps/Medias/Jeux/Minecraft/Let's Plays/Mythgarthr/1/Project/Mod list/Modlist.md",
+		"/Volumes/OSX Data/Users/vivien/Library/Application Support/minecraft/config/biomesoplenty/ids.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Application Support/minecraft/config/Reika/ChromatiCraft.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/D682F63A-06E8-415D-805E-AE0DF9833EF3/Crafting.zs",
+		"/Volumes/OSX Data/Users/vivien/Library/Application Support/minecraft/scripts/MineTweakerRecipeMaker/scripts/Crafting.zs",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/F8FB0427-DC63-44F7-B4C9-181C52EE26A3/main.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/1D5F7B77-3DC2-4778-B58C-0614D8317EE9/Crafting.zs",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/A028BDE9-B104-40CF-8BE8-2313A31753BE/OpenBlocks.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/CF24E228-11B9-4C88-901B-837DCA6AE605/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/2A86747C-56CE-4C39-9550-588C94A67366/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/F3FA72DF-7528-4657-9AB4-53F0BACA3BC0/Crafting.zs",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/94A6A028-7670-4F95-8EAD-E732ADEEC9A0/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/OSX Data/Users/vivien/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/E94954AD-F4DC-4645-A003-EF8B14B37FE7/_forgeServer_version.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/0E6AAF14-5C49-46A5-9669-81960920229E/FMPIntegration.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/09F62870-7D04-4295-8110-AF25E179BF36/mods.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/DF000F4C-A35E-4E38-B12D-3C4ED6863619/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/9B596B52-0C77-4291-B90C-AC816B570CF7/FMPIntegration.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Application Support/minecraft/config/microblocks.cfg",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/08A29371-78CA-48FB-AF93-4A5D8AAE7E48/index.html",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/1AA4E1BB-B4D8-419E-B99E-75EE84D19F43/index.html",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/53C8239E-FD62-4D7B-9670-C84DABD350E2/latest.log",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/60416700-EDE6-4F9F-A4B6-19EE1D799EF1/latest.log",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/A5A5959C-73B2-4AAD-B8C3-F735086A8C6B/white-list.txt.converted",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/1740487E-F079-482C-A947-6B7B98A462E7/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/A65E4735-74E4-4283-A566-85DD26D78954/whitelist.json",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/B8A21F4A-C3C1-4827-92A5-C648C3BECA37/server.properties",
+		"/Volumes/OSX Data/Users/vivien/Library/Caches/Cleanup At Startup/Transmit/E162C079-501C-4145-84F9-F74EF61C1DE2/eula.txt",
+		"/Volumes/OSX Data/Users/vivien/Library/Application Support/minecraft/saves/NEI/local/New World/NEI.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/saves/NEI/local/MythTest Final/NEI.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/config/ExNihilo.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/config/ExAstris.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/saves/NEI/local/New World2/NEI.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/saves/NEI/local/TEST10/NEI.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/config/cofh/core/client.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/config/IguanaTinkerTweaks/main.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/saves/NEI/local/New World/NEI.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/config/atg/biome_modifiers.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/saves/NEI/local/Mythgarthr s1 RC1/NEI.cfg",
+		"/Applications/MultiMC.app/Contents/MacOS/instances/1.7.10/minecraft/saves/NEI/local/TEST6/NEI.cfg"
+	],
+	"find":
+	{
+		"height": 56.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ul",
+			"li ",
+			"Pour la ",
+			"- ",
+			" •	",
+			"wither",
+			"<p>",
+			"true",
+			"curtain",
+			"minecraft:wool",
+			"<minecraft:iron_ingot>",
+			"  ",
+			"useful",
+			"gem",
+			"elevator",
+			"left the game",
+			"logged",
+			"cursed",
+			"test",
+			"]]",
+			"[[",
+			"addShaped",
+			"nourriture",
+			"unsure",
+			"![Serveur uniquement !]",
+			"![Animation, Interactivité]",
+			"![Construction, terraformage]",
+			"![Décoration, Environnement]",
+			"![Client uniquement !]",
+			"![Utilitaire]",
+			"![Choix non définitif]",
+			"=31",
+			"sickl",
+			"mam",
+			"elevat",
+			"theme",
+			"1",
+			"weight\": 5,",
+			"weight",
+			"1",
+			"3",
+			"\"weight\": 5,",
+			"5",
+			"magic",
+			"biome",
+			"=5",
+			"ERROR",
+			"ERROR\n",
+			"ERROR",
+			"grave",
+			"4",
+			"hoe",
+			"flint",
+			"sieve",
+			"flint",
+			"twitch",
+			"10",
+			"</span>",
+			":before",
+			"build",
+			"class=\"",
+			" : ",
+			"<span class=",
+			"move line up",
+			"move line up ",
+			"move line up ( same commands but with arrow keys)",
+			"\\UF701",
+			"move line up",
+			"\\UF701",
+			"^\\UF701",
+			"~\\UF701",
+			"^$\\UF701",
+			"\\UF701",
+			", moveWordForward:, moveWordBackward:",
+			"done.png",
+			"__in/",
+			"done.png",
+			"done",
+			"__in/__include/",
+			"app.",
+			"data_merge",
+			"add_data",
+			"edit_postslist_file",
+			"data",
+			"template_list",
+			"output_file",
+			"sb_file",
+			"sb_",
+			"output",
+			"input",
+			"nom_temporaire",
+			"input",
+			"tmp",
+			"d ",
+			"d",
+			"output",
+			"tmp",
+			"ttmp",
+			"tmp",
+			"d",
+			"sb_",
+			"join",
+			"isfile",
+			"SuBu",
+			"sb_list_of_links",
+			"sb_data",
+			"sb_new_data",
+			"sb_new_dict",
+			"sb_data",
+			"sb_new_dict",
+			"sb_new_data",
+			"splitter",
+			"sb_str_splitter",
+			"sb_data",
+			"sb_new_data",
+			"sb_data",
+			"current",
+			"sb_processed_data",
+			"sb_dirpath",
+			"sb_new_data",
+			"sb_data",
+			"sb_dirpath",
+			"sb_filepath",
+			"sb_new_data",
+			"data",
+			"data ",
+			"new_",
+			"new"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 208.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Modlist.md"
+			],
+			[
+				"peli",
+				"Dossier de travail/pelicanconf.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}

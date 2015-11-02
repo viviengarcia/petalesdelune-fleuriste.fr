@@ -1,0 +1,803 @@
+
+
+
+
+/*****************************************************************************************\
+            $$ UI
+\*****************************************************************************************/
+body
+{
+
+    margin: 0 auto;
+    font-family: 'Rosario', Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background:url('images/cfc_body_bg_gradient.png') left top repeat-x, url('images/cfc_body_bg_pattern.jpg') repeat center top;
+    background-color: $lighter ;
+}
+
+.hfeed.container
+{
+    position: relative;
+}
+
+.container
+{
+    @extend .center;
+    padding-left: $gutter;
+}
+
+h1, .h1-like
+{
+    margin: 48px 0 0;
+    margin: 3.6rem 0 0;
+    line-height:2;
+    font-size: 42px;
+}
+
+h2, .h2-like
+{
+    margin: 36px 0 0;
+    margin: 3.6rem 0 0;
+    line-height:1.2;
+    // border-bottom: 1px solid #ddd;
+    font-size: 30px;
+}
+
+h3, .h3-like
+{
+    margin: 15px 0 0;
+    margin: 1.5rem 0 0;
+    line-height:1.5;
+    font-size: 22px;
+}
+
+h4, .h4-like
+{
+    margin: .3rem 0 0;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+h5, .h5-like
+{
+    margin: 0;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+h6, .h6-like
+{
+    margin: 0;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p
+{
+    margin-top: 0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    padding: 0;
+    font-weight: bold;
+    -webkit-font-smoothing: subpixel-antialiased;
+    cursor: text;
+    color: $htext;
+}
+
+li
+{
+    color: $ptext;
+}
+
+.entry-title > a
+{
+    @extend .no-link;
+}
+
+p
+{
+    color: $ptext;
+}
+
+p + p, pre, blockquote
+{
+    margin: 2.4rem 0 0;
+}
+
+/* you shall not pass */
+// p, textarea, table, td, th, code, pre, samp {
+//     word-wrap: break-word;
+//     -webkit-hyphens: auto;
+//        -moz-hyphens: auto;
+//         -ms-hyphens: auto;
+//          -o-hyphens: auto;
+//             hyphens: auto;
+// }
+
+a
+{
+    text-decoration: none;
+    color: $link;
+}
+
+a:link,
+a:visited
+{
+    color: $color-link-visited;
+    -webkit-tap-highlight-color: $color-link-visited;
+}
+
+a:hover, a:active, a:focus
+{
+    color: $hlink;
+}
+
+p > a:hover, p > a:active, p > a:focus
+{
+    border-bottom: 1px solid adjust-saturation(lighten($hlink, 26%), -8%);
+}
+
+h1 a,
+h1 a:focus,
+h1 a:hover,
+h1 a:visited,
+h2 a,
+h2 a:focus,
+h2 a:hover,
+h2 a:visited,
+h3 a,
+h3 a:focus,
+h3 a:hover,
+h3 a:visited,
+h4 a,
+h4 a:focus,
+h4 a:hover,
+h4 a:visited,
+h5 a,
+h5 a:focus,
+h5 a:hover,
+h5 a:visited,
+h6 a,
+h6 a:focus,
+h6 a:hover,
+h6 a:visited
+{
+    color: $htext!important;
+}
+
+.img-link:hover
+{
+    border-bottom: none;
+}
+
+img, a img, iframe, .img-ui
+{
+    border: 1px solid $lighter!important;
+    box-shadow: 0 0 2px $light!important;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=$darker, Direction=NaN, Strength=3);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea
+{
+    border: 1px solid $lighter!important;
+    box-shadow: 0 0 3px 0 $lighter inset!important;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=$darker, Direction=NaN, Strength=3);
+}
+
+#gallery-1 img
+{
+    border: 3px solid $darkest!important;
+    box-shadow: 0 0 2px 0 $darkest!important;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=$darkest, Direction=NaN, Strength=2);
+}
+
+.input[type="submit"], .wpcf7-submit
+{
+    color: $ptext;
+    background-color: $lightest;
+}
+
+.input[type="submit"]:hover, .wpcf7-submit:hover
+{
+    border-color: $grey!important;
+    color: darken($darkest, 6%);
+    background-color: $white;
+}
+
+ul, ol
+{
+    margin-top: 2.4rem;
+}
+
+li:first-child
+{
+    margin-top: 0;
+}
+
+.size-chuck-norris
+{
+    font-size: 184px;
+    font-size: 18.4rem;
+}
+.size-god
+{
+    font-size: 112px;
+    font-size: 11.2rem;
+}
+.size-hero
+{
+    font-size: 72px;
+    font-size: 7.2rem;
+}
+h1, .size-xxl
+{
+    margin: 24px 0 0;
+    margin: 2.4rem 0 0;
+    font-size: 48px;
+    font-size: 4.8rem;
+    line-height:2;
+}
+h2, .size-xl
+{
+    margin: 24px 0 0;
+    margin: 2.4rem 0 0;
+    font-size: 30px;
+    font-size: 3rem;
+    line-height:1.6;
+}
+h3, .size-l
+{
+    margin: 24px 0 0;
+    margin: 2.4rem 0 0;
+    font-size: 20px;
+    font-size: 2rem;
+    line-height:1.2;
+}
+h4, h5, h6, .size-m
+{
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height:1.5;
+}
+small, .size-s
+{
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height:2;
+}
+.size-xs
+{
+    font-size: 10px;
+    font-size: 1rem;
+    line-height:2.4;
+}
+.size-xxs
+{
+    font-size: 6px;
+    font-size: .6rem;
+    line-height:4;
+}
+
+h3:first-child, .h3-like:first-child
+{
+    margin-top: 1.5rem;
+}
+
+
+/*****************************************************************************************\
+            $$ Z O N E S
+\*****************************************************************************************/
+/**
+ * ::: Header
+**/
+.page-header
+{
+    @extend .center;
+    width: 77rem;
+    hgroup
+    {
+        text-align: left;
+        @extend .center;
+        width: 50rem;
+        @extend .clearfix;
+    }
+    .logo
+    {
+        float: left;
+    }
+}
+
+.page-footer
+{
+    padding: 2.4rem 6rem;
+}
+
+.site-logo
+{
+    width: 13rem;
+    height: 9.4rem;
+    padding: 3.6rem;
+    margin: 2.4rem 2rem 0 0;
+    background-image: url(images/logo2013_160x120.png);
+    background-size: 100%;
+}
+
+.site-logo + div
+{
+    width: 30rem;
+    text-align: left;
+}
+
+.lang-block-ui a
+{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    display: inline-block;
+    width: 2.3rem;
+    height: 1.5rem;
+    background: transparent url(images/flag-sprite.png) top left no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+    &:hover, &:focus
+    {
+        transition: all 0.3s linear;
+        opacity: 1;
+    }
+}
+
+.lang-block-ui.lang-en a
+{
+    background-position: 0 -1.5rem;
+}
+
+.site-title {
+    margin: 2.4rem 0 0;
+    line-height: 1.2;
+    font-weight: bold;
+    @extend .no-link;
+    @extend %heading-solid-shadow;
+    a
+    {
+        color: adjust-saturation(darken($color-brand-main, 6%), 6%)!important;
+    }
+}
+
+.site-description {
+    margin: 0 0 1em;
+    line-height: 1;
+    font-weight: normal;
+}
+
+.container-inner
+{
+    padding: 0 3rem
+}
+
+/**
+ * ::: Footer
+**/
+
+/**
+ * ::: Menu
+**/
+.main-menu
+{
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 2.4rem auto 0;
+    // margin: 0 auto 1em;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    position: relative;
+    float: left;
+}
+
+.main-menu a {
+    display: block;
+    padding: .5em 1em;
+    // line-height: 2em;
+    line-height: 2.4rem;
+    text-decoration: none;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+    color: $white;
+    // background: rgb(51, 51, 51);
+    background: $color-current-light;
+}
+
+.main-menu .current-menu-item a,
+.main-menu .current-menu-ancestor a
+{
+    color: $white;
+    background: $color-current;
+}
+
+
+.main-menu .sub-menu,
+.main-menu .children {
+    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    list-style: none outside none;
+    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    background: rgb(51, 51, 51);
+}
+
+.main-menu .sub-menu li,
+.main-menu .children li {
+    float: none;
+}
+
+.main-menu .sub-menu a,
+.main-menu .children a {
+    white-space: nowrap;
+    color: $white;
+}
+
+/* unhide the 2nd level */
+.main-menu li:hover .sub-menu,
+.main-menu li:hover .children,
+.main-menu li.hover .sub-menu,
+.main-menu li.hover .children {
+    max-height: 30em;
+}
+
+.main-menu li:hover a, .main-menu li:active a, .main-menu li:focus a {
+    color: $white;
+    background: darken($darkest, 8%);
+}
+
+.main-menu .sub-menu a:hover,
+.main-menu .children a:hover,
+.main-menu .sub-menu a:focus,
+.main-menu .children a:focus {
+    color: $white;
+    background: darken($darkest, 20%);
+}
+
+
+/* Styling the toggle menu link and hiding it */
+.navtoggle,
+.toggle-link {
+    display: none;
+}
+
+.main-menu .navtoggle {
+    width: 100%;
+    padding: .8em 1em;
+    text-align: right;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $ptext;
+}
+
+.navtoggle:before {
+    content: '\2630';
+    padding-right: .5em;
+    font-size: 1em;
+}
+
+/**
+ * ::: Content
+**/
+.lteie8 .container {
+    width: 1024px;
+}
+
+/* nav */
+.content nav {
+    display: block;
+    overflow: hidden;
+}
+
+.content nav .nav-previous {
+    float: left;
+    width: 50%;
+}
+
+.content nav .nav-next {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.content #nav-above {
+    display: none;
+}
+
+.paged .content #nav-above,
+.single .content #nav-above {
+    display: block;
+}
+
+#nav-below {
+    margin: 1em 0 0;
+}
+
+.page-link {
+    margin: 0 0 1em;
+}
+
+/* table styling */
+
+.content table,
+.content td,
+.content th {
+    border: 1px solid rgb(191, 191, 190);
+}
+
+.content tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+.entry-meta {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+
+/**
+ * ::: Content Bloc
+**/
+.list-item-block
+{
+    margin-top: 2.4rem;
+}
+
+.vg-content-block-ui
+{
+    border-radius: 3px;
+    border: 1px solid $lightest;
+    box-shadow: $lighter 0 1px 1px, $lightest 0 0 3px 0;
+    background-color: $white;
+    @extend .list-item-block;
+}
+
+.vg-content-block
+{
+    padding: 2.4rem 2rem;
+}
+
+.list-post-ui
+{
+}
+
+// .vg-content-block p + p
+// {
+//     text-indent: 1.4rem;
+// }
+
+.vg-content-block h1 + header
+{
+    margin-top: 1.5rem;
+}
+
+.first-heading
+{
+    margin-top: 0;
+}
+
+.cfc-zone-label
+{
+    margin-top: .2rem;
+    font-weight: normal;
+    color: $dark;
+    border-bottom: 1px solid $lightest;
+    // margin-top: 2.4rem;
+}
+
+.cfc-prez
+{
+    .cfc-content-text
+    {
+        // padding-left: 0;
+    }
+}
+
+.cfc-zone-teaser-home:first-child
+{
+    // width: 64.66%;
+}
+.cfc-zone-teaser-home
+{
+    min-height: 36rem;
+    img
+    {
+        margin-top: 2.4rem;
+    }
+}
+.cfc-zone-teaser-home + .cfc-zone-teaser-home
+{
+    // margin-left: 2%;
+}
+
+ul[id="menu-plan-du-site"]
+{
+    @extend .no-list;
+    @extend .center;
+
+    li
+    {
+        @extend %no-vertical-list;
+        margin-left: 1.6rem;
+        font-size: 1.2rem;
+    }
+}
+
+.attachment-cfc-small-pic
+{
+    margin-top: 2.4rem;
+}
+
+.custom-list--teaser
+{
+    margin-top: 0;
+    padding-left: 1.2rem;
+    li
+    {
+        list-style-image: url('images/icon_arrow.png');
+    }
+    a, a:visited, a:hover, a:focus
+    {
+        color: $ptext;
+    }
+}
+
+.single .one-whole article, .page-template-page-rubrique-php .one-whole article
+{
+    max-width: 70rem;
+    @extend .center;
+}
+
+.contact-image
+{
+    padding-top: 4rem;
+    padding-right: 6rem;
+}
+
+.vg-contact-form
+{
+    width: 30.5rem;
+}
+
+.vg-contact-map
+{
+    width: 34rem;
+    margin-top: 1.6rem;
+    margin-left: 5rem;
+}
+
+.copyright
+{
+    color: $ptext;
+}
+
+.img-link
+{
+    display: inline-block;
+    line-height: 0;
+}
+
+.category-staff
+{
+    padding-right: 2rem;
+}
+
+.gallery .gallery-row
+{
+    margin-top: 2.4rem;
+    a
+    {
+        display: block;
+        line-height: 1;
+    }
+    .gallery-icon img
+    {
+        padding: 0;
+    }
+}
+
+.main-menu li a,
+.main-menu li a:visited,
+.main-menu li a:active,
+{
+    color: $ptext;
+}
+
+.main-menu .current-menu-item a,
+.main-menu .current-menu-item a:visited,
+.main-menu .current-menu-item a:active,
+{
+    color: $white;
+}
+
+.main-menu .sub-menu li a,
+.main-menu .sub-menu li a:visited,
+{
+    color: $lighter;
+}
+
+.main-menu li a:hover,
+.main-menu li a:focus,
+.main-menu li a:active,
+.main-menu .sub-menu li a:hover,
+.main-menu .sub-menu li a:focus,
+.main-menu .sub-menu li a:active
+{
+    color: $white;
+}
+
+.single .entry-content p
+{
+    margin-top: 2.4rem!important;
+}
+
+.cfc-content-pic
+{
+    @extend .txtright;
+}
+
+blockquote
+{
+    p
+    {
+        color: $ptext;
+    }
+    footer
+    {
+        color: lighten($ptext, 16%);
+
+    }
+}
+
+
+/**
+ * ::: Transitions
+**/
+a
+{
+    transition: all 0.2s linear;
+}
+
+.sub-menu .menu-item a, .sub-menu .menu-item a
+{
+    transition: all 0.2s linear;
+}
+
+a:hover, a:focus
+{
+    transition: all 0.2s linear;
+}
+
+#menu-navigation-principale
+{
+    .sub-menu .menu-item:hover a, .sub-menu .menu-item:focus a
+    {
+        transition: all 0.2s linear;
+        border-bottom: none;
+    }
+    a:hover, a:focus
+    {
+        transition: all 0.2s linear;
+        border-bottom: none;
+    }
+}

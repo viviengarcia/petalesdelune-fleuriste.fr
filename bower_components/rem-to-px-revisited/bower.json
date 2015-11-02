@@ -1,0 +1,26 @@
+{
+  "name": "rem-to-px-revisited",
+  "version": "1.0.0",
+  "homepage": "https://github.com/saxinte/rem-to-px-revisited",
+  "author": "Sébastien Axinté <sebastien.axinte@gmail.com>",
+  "description": "A revisited way of converting REM to PX using Sass",
+  "main": "_rem-to-px.scss",
+  "keywords": [
+    "sass",
+    "maintainability",
+    "rem"
+  ],
+  "ignore": [
+    "dest",
+    "node_modules",
+    "sass",
+    "Gruntfile.js",
+    "package.json",
+    ".gitignore"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saxinte/rem-to-px-revisited"
+  }
+}

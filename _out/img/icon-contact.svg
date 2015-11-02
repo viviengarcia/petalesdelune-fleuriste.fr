@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="64" height="50" viewBox="0 0 64 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9f2c2;
+        filter: url(#drop-shadow-1);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <clipPath id="clip-path-1">
+      <rect x="-2" y="-76" width="1024" height="1024"/>
+    </clipPath>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="3.464" in="SourceAlpha"/>
+      <feGaussianBlur result="dropBlur"/>
+      <feFlood flood-color="#45074c"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feOffset dx="-1" dy="1.732" in="SourceAlpha"/>
+      <feGaussianBlur result="dropBlur-1"/>
+      <feFlood flood-color="#0d060d"/>
+      <feComposite operator="in" in2="dropBlur-1" result="dropShadowComp-1"/>
+      <feBlend in2="dropShadowComp" result="dropShadowBlend-1"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#clip-path-1)">
+    <path d="M1.000,37.375 L1.000,6.625 C1.000,5.515 1.348,4.490 1.933,3.651 L23.490,18.786 L1.838,40.214 C1.309,39.401 1.000,38.425 1.000,37.375 ZM30.005,16.528 L3.079,2.471 C3.901,1.863 4.908,1.500 6.000,1.500 L54.000,1.500 C55.093,1.500 56.102,1.864 56.925,2.474 L30.005,16.528 ZM36.510,18.793 L58.070,3.656 C58.653,4.494 59.000,5.517 59.000,6.625 L59.000,37.375 C59.000,38.427 58.690,39.405 58.159,40.218 L36.510,18.793 ZM25.203,19.989 L30.005,23.360 L34.796,19.996 L56.707,41.680 C55.926,42.197 54.998,42.500 54.000,42.500 L6.000,42.500 C5.000,42.500 4.070,42.196 3.289,41.677 L25.203,19.989 Z" transform="translate(2 3)" class="cls-1"/>
+  </g>
+</svg>

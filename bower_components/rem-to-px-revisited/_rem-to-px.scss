@@ -1,0 +1,69 @@
+// This variable refers to the default browser's font-size, and 1rem = 16px.
+$pixelBase: 16;
+
+/*
+---
+name: parseInt
+description: returns a number from a given string
+source: http://hugogiraudel.com/2013/03/18/ultimate-rem-mixin/
+...
+*/
+@function parseInt($n) {
+	@return $n / ($n * 0 + 1);
+}
+
+
+/*
+---
+name: u ("u" is for unit)
+description: converts REM values into PX values targeting a specific stylesheet
+source: http://davidwalsh.name/rem-px-browser-function-sass
+return: A list of converted values
+...
+*/
+@function u($values){
+	
+	// Define a new empty list, where we store new values.
+	$list: ();
+	
+	// For each value passed in $values argument,
+	// test the current value and store it in the $list.
+	@each $value in $values {
+		
+		// Test if the current value is a number and if that value isn't equal to 0.
+		@if (type-of($value) == "number") and ($value != 0) {
+			
+			// This Sass function returns the unit associated with a number.
+			$unit : unit($value);
+
+			// Returns the number from a given string.
+			$val  : parseInt($value);
+			
+			// First condition: if 'pixels only' mode is active and unit value is 'REM',
+			// convert 'REM' value in pixels and push it into $list array.
+			@if ($px-only) and ($unit == 'rem') {
+				$list: append($list, ($val * $pixelBase) + px);
+			}
+			
+			// Second condition: else if the units are 'PX' or 'REM' we just push value into list.
+			@else if($unit == 'px') or ($unit == 'rem'){
+				$list: append($list, $value);
+			}
+			
+			// If something fail, we throw a warning in Sass.
+			@else {
+				@warn 'There is no unit conversion for "#{$unit}"';
+			}
+
+		}@else {
+
+			// If value isn't a real number, just push the current value in the list (e.g. 'auto').
+			$list: append($list, $value);
+		}
+
+	}
+	
+	// Then, return the list as a clean CSS string values.
+	@return $list();
+
+}

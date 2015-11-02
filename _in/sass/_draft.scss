@@ -1,0 +1,240 @@
+// .content-wip
+// {
+// 	background-color: lighten(desaturate($color-brand-main-light, 12%), 8%);
+// 	//générique
+// 	h1, h2, h3, h4
+// 	{
+// 		margin-top: 2.4rem;
+// 		// background-color: darken($color-brand-main, 8%);
+// 		background-color: $color-brand-main;
+// 	}
+// 	h2, h3, h4, p
+// 	{
+// 		padding-left: 1.2rem;
+// 	}
+// 	p
+// 	{
+// 		margin-top: 0.6rem;
+// 	}
+// 	h2
+// 	{
+// 		@extend .h3-like
+// 	}
+// 	h3
+// 	{
+// 		@extend .h4-like
+// 	}
+// 	//classes
+// 	.contact-panel
+// 	{
+// 		margin-top: 2.4rem;
+// 	}
+// 	.content-title
+// 	{
+// 		@extend .h2-like;
+// 		@extend .txtcenter;
+// 		padding-top: 2.4rem;
+// 		padding-bottom: 2.4rem;
+// 		margin-top: 0;
+// 		background-color: $color-brand-main-dark;
+// 	}
+// 	.content-description
+// 	{
+// 		@extend .txtcenter;
+// 		margin-top: 0;
+// 		padding-top: 1.2rem;
+// 		padding-bottom: 2.4rem;
+// 		// background-color: $color-brand-main-light;
+// 	}
+// 	.coordonnees > p
+// 	{
+// 		@extend .txtcenter;
+// 		margin-top: 1.2rem;
+// 	}
+// 	#map_canvas
+// 	{
+// 		margin-top: 2.4rem;
+// 	}
+// 	#firstHeading
+// 	{
+// 		background-color: $color-text-paragraph;
+// 		color: $color-brand-main;
+// 	}
+// 	.contact-panel h2
+// 	{
+// 		margin-top: 0;
+// 	}
+// 	table
+// 	{
+// 		@extend .center;
+// 		margin-top: 1.2rem;
+// 	}
+// 	th
+// 	{
+// 		font-weight: 500;
+// 	}
+// 	th, td
+// 	{
+// 		@extend .txtcenter;
+// 		padding: 0.2rem 1.2rem;
+// 		border-bottom: 0.1rem solid $color-brand-main;
+// 	}
+// 	th:first-child, td:first-child
+// 	{
+// 		@extend .txtright;
+// 		padding-right: 1.2rem;
+// 	}
+// 	.contact--mail
+// 	{
+// 		padding-bottom: 2.4rem;
+// 	}
+// 	.container-map
+// 	{
+// 		width: 300px;
+// 		margin: 0 auto;
+// 	}
+// 	#map_canvas
+// 	{
+// 		border: 5px solid $color-brand-main;
+// 		border-radius: 2px;
+// 	}
+// }
+
+
+
+// ::Media Queries
+@media only screen and (min-width: 320px) {
+
+	/* Small screen, non-retina */
+	.phone > a
+	{
+		text-decoration: underline;
+	}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   -moz-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px) {
+
+	/* Small screen, retina, stuff to override above media query */
+	.phone > a
+	{
+		text-decoration: underline;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+
+	/* Medium screen, non-retina */
+	.page-wrapper
+	{
+		width: 700px;
+	}
+	.content-wip
+	{
+		h1, h2, h3, h4, .phone, .contact--mail
+		{
+			text-align: center;
+		}
+	}
+	.phone > a
+	{
+		text-decoration: none;
+	}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (   -moz-min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (                min-resolution: 192dpi) and (min-width: 700px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 700px) {
+
+	/* Medium screen, retina, stuff to override above media query */
+	.page-wrapper
+	{
+		width: 700px;
+	}
+	.content-wip
+	{
+		h1, h2, h3, h4, .phone, .contact--mail
+		{
+			text-align: center;
+		}
+	}
+	.phone > a
+	{
+		text-decoration: none;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+
+	/* Large screen, non-retina */
+	.page-wrapper
+	{
+		width: 1152px;
+	}
+	.content-wip
+	{
+		h1, h2, h3, h4, .phone, .contact--mail
+		{
+			text-align: center;
+		}
+	}
+	.phone > a
+	{
+		text-decoration: none;
+	}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (   -moz-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
+
+	/* Large screen, retina, stuff to override above media query */
+	.page-wrapper
+	{
+		width: 1152px;
+	}
+	.content-wip
+	{
+		h1, h2, h3, h4, .phone, .contact--mail
+		{
+			text-align: center;
+		}
+	}
+	.phone > a
+	{
+		text-decoration: none;
+	}
+}
+
+
+
+
+
+
+
+// .btn-panel:before
+// {
+// 	content: '';
+// 	display: block;
+// 	position: absolute;
+// 	top:0px;
+// 	left:0px;
+// 	height: 107%;
+// 	width: 101.5%;
+// 	border: 1px solid rgba($color-text-paragraph, 0.05);
+// 	border-radius: 1px;
+// 	box-sizing: border-box;
+// }
