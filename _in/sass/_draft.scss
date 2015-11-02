@@ -64,26 +64,26 @@
 // 	{
 // 		margin-top: 0;
 // 	}
-// 	table
-// 	{
-// 		@extend .center;
-// 		margin-top: 1.2rem;
-// 	}
-// 	th
-// 	{
-// 		font-weight: 500;
-// 	}
-// 	th, td
-// 	{
-// 		@extend .txtcenter;
-// 		padding: 0.2rem 1.2rem;
-// 		border-bottom: 0.1rem solid $color-brand-main;
-// 	}
-// 	th:first-child, td:first-child
-// 	{
-// 		@extend .txtright;
-// 		padding-right: 1.2rem;
-// 	}
+	// table
+	// {
+	// 	@extend .center;
+	// 	margin-top: 1.2rem;
+	// }
+	// th
+	// {
+	// 	font-weight: 500;
+	// }
+	// th, td
+	// {
+	// 	@extend .txtcenter;
+	// 	padding: 0.2rem 1.2rem;
+	// 	border-bottom: 0.1rem solid $color-brand-main;
+	// }
+	// th:first-child, td:first-child
+	// {
+	// 	@extend .txtright;
+	// 	padding-right: 1.2rem;
+	// }
 // 	.contact--mail
 // 	{
 // 		padding-bottom: 2.4rem;
