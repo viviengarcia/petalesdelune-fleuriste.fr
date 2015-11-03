@@ -646,6 +646,9 @@ p {
 #media-query-debug {
   display: none; }
 
+.z-index-top {
+  z-index: 999; }
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -1060,9 +1063,9 @@ p {
   position: fixed;
   overflow-y: auto;
   z-index: 100;
-  width: 100%;
+  width: 34rem;
   height: 100%;
-  margin-left: 15%;
+  margin-left: calc(100% - 34rem);
   background-color: #522458;
   box-shadow: 0 0 3rem 0 #110912; }
 
