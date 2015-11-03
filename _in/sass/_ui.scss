@@ -7,6 +7,7 @@
 \*****************************************************************************************/
 // Decoration only.
 
+
 /**
  * ::: App
 **/
@@ -16,12 +17,12 @@ body
 	background-image: url('img/pattern-floral.jpg');
 	color: $color-text-paragraph;
 	font-family: "costa", sans-serif;
-	letter-spacing: 0.02rem;
+	letter-spacing: u(0.02rem 0);
 }
 
 footer
 {
-	box-shadow: inset 0 2rem 2rem -2rem rgba($color-darkest, 0.75);
+	box-shadow: inset u(0 2rem 2rem -2rem) rgba($color-darkest, 0.75);
 }
 
 .body-inner
@@ -51,10 +52,10 @@ h1, h2, h3, h4, h5, h6
 
 a
 {
-	padding: 0 0.5rem;
-	margin-left: -0.7rem;
+	padding: u(0 0.5rem);
+	margin-left: u(-0.7rem);
 	color: $color-link-paragraph;
-	border: 0.1rem solid transparent;
+	border: u(0.1rem) solid transparent;
 	&:visited
 	{
 		color: $color-link-visited;
@@ -64,11 +65,11 @@ a
 	&:focus
 	{
 		@extend %buttonify;
-		padding: 0.1rem 0.5rem 0.2rem;
-		margin: 0 0 -0.2rem -0.7rem;
+		padding: u(0.1rem 0.5rem 0.2rem);
+		margin: u(0 0 -0.2rem -0.7rem);
 		background-color: rgba($color-darkest, 0.05);
-		border: 0.1rem solid rgba($color-lightest, 0.3);
-		border-radius: 0.2rem;
+		border: u(0.1rem) solid rgba($color-lightest, 0.3);
+		border-radius: u(0.2rem);
 	}
 }
 
@@ -82,34 +83,34 @@ header
 .site-title
 {
 	@extend .size-h3;
-	padding-top: 0.7rem;
+	padding-top: u(0.7rem);
 }
 
 .logo
 {
 	@extend .left;
 	@extend %img-replace;
-	width: 23.1rem;
-	height: 3.3rem;
+	width: u(23.1rem);
+	height: u(3.3rem);
 	background-image:  url('img/icon-logo.svg');
 	background-size: 100%;
 	background-position: center bottom;
-	margin-top: 0.7rem;
-	margin-left: 0.6rem;
+	margin-top: u(0.7rem);
+	margin-left: u(0.6rem);
 	@media #{$media-phone-medium-retina} {
-		width: 26rem;
-		height: 4rem;
+		width: u(26rem);
+		height: u(4rem);
 	}
 	@media #{$media-phablet} {
-		width: 30rem;
-		height: 5rem;
-		margin-top: 0.2rem;
+		width: u(30rem);
+		height: u(5rem);
+		margin-top: u(0.2rem);
 	}
 	@media #{$media-desktop-small} {
-		width: 34rem;
-		height: 5rem;
-		margin-top: 1.4rem;
-		margin-left: 0.4rem;
+		width: u(34rem);
+		height: u(5rem);
+		margin-top: u(1.4rem);
+		margin-left: u(0.4rem);
 	}
 }
 
@@ -117,34 +118,34 @@ header
 {
 	@extend .invisible;
 	@extend .right;
-	letter-spacing: -1rem;
+	letter-spacing: u(-1rem);
 	&:before
 	{
 		content:'';
 		display: inline-block;
 		visibility: visible;
-		width: 2.4rem;
-		height: 1.7rem;
-		margin-top: 1.5rem;
-		padding-right: 1.8rem;
+		width: u(2.4rem);
+		height: u(1.7rem);
+		margin-top: u(1.5rem);
+		padding-right: u(1.8rem);
 		background-image: url('img/icon-contact.svg');
 		background-repeat: no-repeat;
 		background-size: contain;
 		@media #{$media-phone-medium-retina} {
-			width: 3rem;
-			height: 2.3rem;
+			width: u(3rem);
+			height: u(2.3rem);
 			background-size: contain;
 		}
 		@media #{$media-phablet} {
-			width: 3.2rem;
-			height: 2.4rem;
-			margin-top: 2rem;
+			width: u(3.2rem);
+			height: u(2.4rem);
+			margin-top: u(2rem);
 		}
 	@media #{$media-desktop-small} {
-		width: 1.8rem;
-		height: 2.4rem;
-		margin-top: 2.2rem;
-		margin-right: 1rem;
+		width: u(1.8rem);
+		height: u(2.4rem);
+		margin-top: u(2.2rem);
+		margin-right: u(1rem);
 		}
 	}
 }
@@ -163,7 +164,7 @@ header
 		@extend .list-no-decoration;
 		@extend .clearfix;
 		margin-top: 0;
-		padding-top: 1.2rem;
+		padding-top: u(1.2rem);
 	}
 	li
 	{
@@ -172,7 +173,7 @@ header
 		&:first-child
 		{
 			@extend .left;
-			padding-right: 1.6rem;
+			padding-right: u(1.6rem);
 		}
 	}
 	p
@@ -185,14 +186,14 @@ header
 	{
 		@extend .btn-unstyled;
 		@extend .btn-link;
-		padding-top: 0.2rem;
+		padding-top: u(0.2rem);
 	}
 	button
 	{
 		padding-left: 0;
 	}
 	@media #{$media-desktop-large} {
-		width: 115.2rem;
+		width: u(115.2rem);
 	}
 }
 
@@ -209,10 +210,10 @@ header
 		@extend .link-no-decoration;
 		@extend .inblock;
 		content: '';
-		margin-right: 0.3rem;
-		margin-top: 0.6rem;
-		width: 1.4rem;
-		height: 1.4rem;
+		margin-right: u(0.3rem);
+		margin-top: u(0.6rem);
+		width: u(1.4rem);
+		height: u(1.4rem);
 		background-image: url('img/icon-arrow-up.svg');
 		background-size:100%;
 	}
@@ -230,8 +231,8 @@ header
 #map_canvas
 {
 	width: 100%;
-	max-width: 30rem;
-	height: 26rem;
+	max-width: u(30rem);
+	height: u(26rem);
 }
 
 #map_canvas img {
@@ -239,33 +240,33 @@ header
 }
 
 #map_canvas .content {
-	padding: 0 0.5em 1em 0.5em;
+	padding: u(0 0.5rem 1rem 0.5rem);
 }
 
 #map_canvas .firstHeading {
-	font-size: 1em;
-	line-height: 1em;
+	font-size: u(1rem);
+	line-height: u(1rem);
 	font-weight: bold;
 	margin: 0;
 }
 
 #map_canvas #bodyContent p {
-	font-size: 1em;
+	font-size: u(1rem);
 	margin: 0;
 }
 
 .page-content-index
 {
-	margin-top: -4.5rem;
+	margin-top: u(-4.5rem);
 	background-image: url('img/pattern-fabric.jpg');
 	@media #{$media-phone-medium-retina} {
-		margin-top: -5rem;
+		margin-top: u(-5rem);
 	}
 	@media #{$media-phablet} {
-		margin-top: -5.6rem;
+		margin-top: u(-5.6rem);
 	}
 	@media #{$media-desktop-small} {
-		margin-top: -6.5rem;
+		margin-top: u(-6.5rem);
 	}
 }
 
@@ -275,8 +276,8 @@ header
 	background: url('img/image-pitch-intro-320x460.jpg') top left no-repeat;
 	background-size: 100%;
 	width: 100%;
-	height: 46rem;
-	padding-top: 25rem;
+	height: u(46rem);
+	padding-top: u(25rem);
 	h1, p
 	{
 		@extend .hard-text-shadow;
@@ -286,24 +287,24 @@ header
 		@extend .size-h3;
 		@extend .center;
 		width: 90%;
-		font-size: 2.5rem;
+		font-size: u(2.5rem);
 		line-height: 1.3;
 		@media #{$media-phone-medium-retina} {
-			font-size: 2.8rem;
+			font-size: u(2.8rem);
 			line-height: 1.2;
 		}
 		@media only screen and (min-width: 37.5rem) {
-			font-size: 3rem;
+			font-size: u(3rem);
 		}
 		@media #{$media-tablet-small} {
-			font-size: 3.6rem;
+			font-size: u(3.6rem);
 		}
 		@media #{$media-desktop-small} {
 			width: 66%;
-			font-size: 4.6rem
+			font-size: u(4.6rem)
 		}
 		@media #{$media-desktop-medium} {
-			font-size: 5.2rem
+			font-size: u(5.2rem)
 		}
 	}
 	p
@@ -316,18 +317,18 @@ header
 			font-weight: 900;
 		}
 		@media #{$media-phablet} {
-			padding-top: 0.6rem;
+			padding-top: u(0.6rem);
 		}
 		@media #{$media-tablet-small} {
-			font-size: 2rem;
+			font-size: u(2rem);
 		}
 		@media #{$media-desktop-small} {
 			width: 60%;
-			padding-top: 1.2rem;
-			font-size: 2.6rem
+			padding-top: u(1.2rem);
+			font-size: u(2.6rem);
 		}
 		@media #{$media-desktop-medium} {
-			font-size: 3rem
+			font-size: u(3rem);
 		}
 	}
 	// .pitch-intro : background image is now retina
@@ -337,62 +338,62 @@ header
 		background-repeat: no-repeat;
 	}
 	@media #{$media-phone-medium-retina} {
-		padding-top: 25rem;
+		padding-top: u(25rem);
 	}
 	@media #{$media-phone-large} {
-		height: 60rem;
-		padding-top: 41rem;
+		height: u(60rem);
+		padding-top: u(41rem);
 		background-image: url('img/image-pitch-intro-480x600.jpg');
 	}
 	@media #{$media-phone-large-retina} {
-		height: 38.4rem;
-		padding-top: 20rem;
+		height: u(38.4rem);
+		padding-top: u(20rem);
 		background-size: 100%;
 	}
 	@media #{$media-phablet} {
-		height: 48rem;
+		height: u(48rem);
 		background-image: url('img/image-pitch-intro-480x600-retina.jpg');
-		padding-top: 33rem;
+		padding-top: u(33rem);
 	}
 	@media #{$media-tablet-small} {
-		height: 48rem;
+		height: u(48rem);
 		background-image: url('img/image-pitch-intro-768x560.jpg');
-		padding-top: 32rem;
+		padding-top: u(32rem);
 	}
 	@media #{$media-tablet-small-retina} {
 		background-image: url('img/image-pitch-intro-768x560-retina.jpg');
 	}
 	@media #{$media-desktop-small} {
-		height: 76.8rem;
-		padding-top: 50rem;
+		height: u(76.8rem);
+		padding-top: u(50rem);
 		background-image: url('img/image-pitch-intro-1280x768.jpg');
 		background-position: top center;
 		background-size: cover;
 	}
 	@media #{$media-desktop-medium} {
-		height: 90rem;
+		height: u(90rem);
 		background-image: url('img/image-pitch-intro-1920x1080.jpg');
 		background-position: bottom center;
-		padding-top: 62rem;
+		padding-top: u(62rem);
 	}
 }
 
 .pitch-details
 {
-	box-shadow: 0 -0.2rem 0.6rem 0 rgba($color-darkest, 0.35);
-	border-bottom: 0.6rem solid $color-brand-alternate;
-	border-top: 0.1rem solid rgba($color-lightest, 0.15);
+	box-shadow: u(0 -0.2rem 0.6rem 0) rgba($color-darkest, 0.35);
+	border-bottom: u(0.6rem) solid $color-brand-alternate;
+	border-top: u(0.1rem) solid rgba($color-lightest, 0.15);
 	background-color: $color-brand-main-light;
 	ul
 	{
 		@extend .center;
 		width: 90%;
 		@media #{$media-desktop-small} {
-			max-width: 96rem;
+			max-width: u(96rem);
 			margin: 0 auto;
 		}
 		@media #{$media-desktop-large} {
-			max-width: 115.2rem;
+			max-width: u(115.2rem);
 		}
 	}
 	li
@@ -401,21 +402,17 @@ header
 		@media #{$media-tablet-small} {
 			display: inline-block;
 			vertical-align: top;
-			width: 21.5rem;
-			margin-right: 2rem;
+			width: u(21.5rem);
+			margin-right: u(2rem);
 		}
 		@media #{$media-desktop-small} {
-			width: 26rem;
-			margin-top: 2.4rem;
-			margin-right: 6.8rem;
-		}
-		@media #{$media-desktop-medium} {
-			// width: 36rem;
-			// margin-right: 10rem;
+			width: u(26rem);
+			margin-top: u(2.4rem);
+			margin-right: u(6.8rem);
 		}
 		@media #{$media-desktop-large} {
-			width: 31.5rem;
-			margin-right: 10rem;
+			width: u(31.5rem);
+			margin-right: u(10rem);
 		}
 		&:nth-child(3n)
 		{
@@ -431,28 +428,28 @@ header
 	@extend .list-no-decoration;
 	width: 100%;
 	margin-top: 0;
-	padding-bottom: 2.4rem;
+	padding-bottom: u(2.4rem);
 	h2
 	{
 		@extend .size-h4;
-		padding-top: 2.4rem;
+		padding-top: u(2.4rem);
 	}
 	p
 	{
-		margin-top: 0.8rem;
+		margin-top: u(0.8rem);
 	}
 }
 
 .pitch-ending
 {
-	padding-bottom: 2.4rem;
+	padding-bottom: u(2.4rem);
 	background-color: rgba($color-darkest, 0.2);
 	h2, p
 	{
 		@extend .center;
 		width: 90%;
 		@media #{$media-desktop-small} {
-			max-width: 96rem;
+			max-width: u(96rem);
 		}
 	}
 	h2
@@ -465,11 +462,11 @@ header
 	p
 	{
 		@media #{$media-desktop-small} {
-			margin-top: 2.4rem;
+			margin-top: u(2.4rem);
 		}
 		@media #{$media-desktop-medium} {
 			width: 70%;
-			margin: 2.4rem auto;
+			margin: u(2.4rem) auto;
 		}
 	}
 }
@@ -487,24 +484,24 @@ header
 	height: 100%;
 	margin-left: 15%;
 	background-color:$color-brand-main-light;
-	box-shadow: 0 0 30px 0 rgba($color-darkest, 1);
+	box-shadow: u(0 0 3rem 0) rgba($color-darkest, 1);
 }
 
 .panel
 {
 	height: 100%;
-	padding: 1.2rem;
-	box-shadow: inset 0.1rem 0 0 0 rgba($color-lightest, 0.1)
+	padding: u(1.2rem);
+	box-shadow: inset u(0.1rem 0 0 0) rgba($color-lightest, 0.1)
 }
 
 .link-email
 {
-	padding-bottom: 2.4rem;
+	padding-bottom: u(2.4rem);
 }
 
 #mentions-panel-container .panel
 {
-	box-shadow: inset 0.1rem 0 0 0 rgba($color-lightest, 0.3)
+	box-shadow: inset u(0.1rem 0 0 0) rgba($color-lightest, 0.3)
 }
 
 .panel-background
@@ -527,10 +524,10 @@ header
 		content: '';
 		background-image: url('img/icon-compass.svg');
 		background-size: 100%;
-		height: 2.4rem;
-		width: 2.4rem;
-		margin-bottom: -0.5rem;
-		margin-right: 0.5rem;
+		height: u(2.4rem);
+		width: u(2.4rem);
+		margin-bottom: u(-0.5rem);
+		margin-right: u(0.5rem);
 	}
 }
 
@@ -551,25 +548,25 @@ header
 .btn-panel
 {
 	position: relative;
-	border: 0.1rem solid rgba($color-brand-main-dark, 0.3);
-	padding: 0.2rem 0.9rem 0.1rem 0.8rem;
-	border-radius: 0.3rem;
+	border: u(0.1rem) solid rgba($color-brand-main-dark, 0.3);
+	padding: u(0.2rem 0.9rem 0.1rem 0.8rem);
+	border-radius: u(0.3rem);
 	background-color: rgba($color-text-paragraph, 0.05);
 }
 
 .clouded
 {
 	animation: clouded 1s;	z-index: 10;
-	background-color: rgba(0, 0, 0, 0.65);
+	background-color: rgba($color-brand-main-dark, 0.65);
 }
 @keyframes clouded {
 	from {
 		z-index: -1;
-		background-color: rgba(0, 0, 0, 0);
+		background-color: rgba($color-brand-main-dark, 0);
 	}
 	to {
 		z-index: 10;
-		background-color: rgba(0, 0, 0, 0.65);
+		background-color: rgba($color-brand-main-dark, 0.65);
 	}
 }
 
@@ -577,23 +574,22 @@ header
 {
 	animation: cleared 0.3s;
 	z-index: -1;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba($color-brand-main-dark, 0);
 }
 @keyframes cleared {
 	from {
 		z-index: 1;
-		background-color: rgba(0, 0, 0, 0.65);
+		background-color: rgba($color-brand-main-dark, 0.65);
 	}
 	to {
 		z-index: -1;
-		background-color: rgba(0, 0, 0, 0);
+		background-color: rgba($color-brand-main-dark, 0);
 	}
 }
 
 table
 {
-	// @extend .center;
-	margin-top: 1.2rem;
+	margin-top: u(1.2rem);
 }
 th
 {
@@ -602,11 +598,11 @@ th
 th, td
 {
 	@extend .txtcenter;
-	padding: 0.2rem 1.2rem;
-	border-bottom: 0.1rem solid rgba($color-brand-main-dark, 0.5);
+	padding: u(0.2rem 1.2rem);
+	border-bottom: u(0.1rem) solid rgba($color-brand-main-dark, 0.5);
 }
 th:first-child, td:first-child
 {
 	@extend .txtright;
-	padding-right: 1.2rem;
+	padding-right: u(1.2rem);
 }

@@ -7,6 +7,7 @@
 \*****************************************************************************************/
 // No UI elements direct styling, only helpers for hacks, position, animation, fx and @extend materials
 
+
 /*
  * ::: General Hacks
 **/
@@ -27,7 +28,7 @@ html
 body
 {
 	-webkit-font-smoothing: antialiased;
-	font-size: 1.8rem;
+	font-size: u(1.8rem);
 	line-height: 1.5;
 }
 
@@ -102,14 +103,6 @@ html:first-child, body:first-child, .page-wrapper:first-child
 		margin-top: 0;
 }
 
-// galerie de miniatures
-// .gallery-item {
-// 	float: left;
-// 	width: 33%;
-// 	margin-top: 10px;
-// 	text-align: center;
-// }
-
 
 /**
  * ::: Unstyling elements
@@ -157,84 +150,83 @@ html:first-child, body:first-child, .page-wrapper:first-child
 
 .size-chucknorris
 {
-		font-size: 18.4rem;
+		font-size: u(18.4rem);
 }
 
 .size-god
 {
-		font-size: 11.2rem;
+		font-size: u(11.2rem);
 }
 
 .size-hero
 {
-		font-size: 7.2rem;
+		font-size: u(7.2rem);
 }
 
 h1, .size-h1
 {
-	// margin: 4.8rem 0 0;
-	padding: 4.8rem 0 0;
+	padding: u(4.8rem 0 0);
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 2;
-	font-size: 4.2rem;
+	font-size: u(4.2rem);
 }
 
 h2, .size-h2
 {
-	padding: 3.2rem 0 0;
+	padding: u(3.2rem 0 0);
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 2;
-	font-size: 3.2rem;
+	font-size: u(3.2rem);
 }
 
 h3, .size-h3
 {
-	padding: 2.4rem 0 0;
+	padding: u(2.4rem 0 0);
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 1.5;
-	font-size: 2.4rem;
+	font-size: u(2.4rem);
 }
 
 h4, .size-h4
 {
-	padding: 0.3rem 0 0;
+	padding: u(0.3rem 0 0);
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 1.2;
-	font-size: 1.8rem;
+	font-size: u(1.8rem);
 }
 
 h5, .size-h5, h6, .size-h6
 {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 1.6rem;
+	font-size: u(1.6rem);
 }
 
 small, .size-s
 {
-	font-size: 1.4rem;
+	font-size: u(1.4rem);
 	line-height: 2;
 }
 
 .size-xs
 {
-	font-size: 1.2rem;
+	font-size: u(1.2rem);
 	line-height: 2.4;
 }
 
 .size-xxs
 {
-	font-size: 1rem;
+	font-size: u(1rem);
 	line-height: 4;
 }
 
 .text-intro
 {
-	font-size: 1.8rem;
+	font-size: u(1.8rem);
 }
 
 /**
@@ -268,25 +260,25 @@ small, .size-s
 .assistive-text,
 .visually-hidden {
 	position: absolute !important;
-	left: -700rem;
+	left: u(-700rem);
 	overflow: hidden;
-	clip: rect(0.1rem 0.1rem 0.1rem 0.1rem);
-	clip: rect(0.1rem, 0.1rem, 0.1rem, 0.1rem);
+	clip: rect( u(0.1rem 0.1rem 0.1rem 0.1rem));
+	clip: rect(u(0.1rem), u(0.1rem), u(0.1rem), u(0.1rem));
 }
 
 /* invert position for right to left reading direction */
 [dir=rtl] .visually-hidden {
 	left: auto;
-	right: -700rem;
+	right: u(-700rem);
 }
 
 a.assistive-text:active,
 a.assistive-text:focus {
 	background: #eee;
-	border-bottom: 0.1rem solid #ddd;
+	border-bottom: u(0.1rem) solid #ddd;
 	color: #1982d1;
 	clip: auto !important;
-	font-size: 1.2rem;
+	font-size: u(1.2rem);
 	position: absolute;
 	text-decoration: underline;
 	top: 0;
@@ -312,24 +304,24 @@ a.assistive-text:focus {
 @keyframes buttonify {
 	from {
 		background-color: rgba($color-darkest, 0.05);
-		padding: 0.1rem 0.5rem 0.2rem;
-		margin-left: -0.7rem;
-		border: 0.1rem solid rgba($color-lightest, 0);
+		padding: u(0.1rem 0.5rem 0.2rem);
+		margin-left: u(-0.7rem);
+		border: u(0.1rem) solid rgba($color-lightest, 0);
 		border-radius: 0;
 	}
 	to {
 		background-color: rgba($color-darkest, 0.05);
-		padding: 0.1rem 0.5rem 0.2rem;
-		margin-left: -0.7rem;
-		border: 0.1rem solid rgba($color-lightest, 0.2);
-		border-radius: 0.2rem;
+		padding: u(0.1rem 0.5rem 0.2rem);
+		margin-left: u(-0.7rem);
+		border: u(0.1rem) solid rgba($color-lightest, 0.2);
+		border-radius: u(0.2rem);
 	}
 }
 
 /* Text hard shadows */
 .hard-text-shadow
 {
-	text-shadow: -0.1rem 0.1rem 0 $color-darkest;
+	text-shadow: u(-0.1rem 0.1rem 0) $color-darkest;
 }
 
 
@@ -340,12 +332,12 @@ a.assistive-text:focus {
 		z-index: 999;
 		top: 0;
 		left: 0;
-		width: 10rem;
-		height: 3rem;
+		width: u(10rem);
+		height: u(3rem);
 		padding-top: 0;
-		padding-left: 0.6rem;
+		padding-left: u(0.6rem);
 		background-color: purple;
-		border: 0.2rem solid red;
+		border: u(0.2rem) solid red;
 	}
 }
 
