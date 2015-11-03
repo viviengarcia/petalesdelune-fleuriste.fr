@@ -112,9 +112,11 @@ jQuery(document).ready(function($) {
 	}
 
 	function closePanel() {
+		var currentOpenedPanel = $('.slideInRight');
 		panel_background.removeClass('clouded').addClass('cleared');
-		panel_container.removeClass().addClass('slideOutRight animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		currentOpenedPanel.removeClass().addClass('z-index-top slideOutRight animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 				panel_background.removeClass('cleared');
+				panel_container.removeClass(' z-index-top');
 			});
 		panel_background.delay('500').removeClass('cleared');
 	}

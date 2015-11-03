@@ -480,9 +480,11 @@ header
 	position: fixed;
 	overflow-y: auto;
 	z-index: 100;
-	width: 100%;
+	// width: 100%;
+	width: u(34rem);
 	height: 100%;
-	margin-left: 15%;
+	// margin-left: 15%;
+	margin-left: calc(100% - 34rem);
 	background-color:$color-brand-main-light;
 	box-shadow: u(0 0 3rem 0) rgba($color-darkest, 1);
 }

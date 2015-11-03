@@ -346,3 +346,8 @@ a.assistive-text:focus {
 	display: none;
 	@include medbug;
 }
+
+.z-index-top
+{
+	z-index: 999;
+}
