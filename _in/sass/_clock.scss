@@ -1,14 +1,14 @@
 .loader-panel {
 	@extend .center;
-	width: 84px;
-	height: 84px;
+	width: 8.4rem;
+	height: 8.4rem;
 }
 
 .b-loader {
 	@extend .center;
-	width: 84px;
-	height: 84px;
-	border: 2px solid #ffffff;
+	width: 8.4rem;
+	height: 8.4rem;
+	border: 0.2rem solid #ffffff;
 	border-radius: 50%;
 	position: absolute;
 }

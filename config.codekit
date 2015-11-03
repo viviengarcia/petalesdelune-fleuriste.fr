@@ -2,6 +2,24 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19076",
 "files": {
+	"\/_in\/_contact.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_in\/_contact.kit",
+		"outputAbbreviatedPath": "\/_out\/_contact.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_in\/_content-homepage.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/_in\/_content-homepage.kit",
+		"outputAbbreviatedPath": "\/_out\/_content-homepage.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_in\/_footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -38,28 +56,10 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_in\/contact.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_in\/contact.kit",
-		"outputAbbreviatedPath": "\/_out\/contact.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_in\/content-homepage.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_in\/content-homepage.kit",
-		"outputAbbreviatedPath": "\/_out\/content-homepage.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_in\/en-construction.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_in\/en-construction.kit",
 		"outputAbbreviatedPath": "\/_out\/en-construction.html",
 		"outputPathIsOutsideProject": 0,
@@ -74,21 +74,32 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_in\/js\/scripts.js": {
+	"\/_in\/js\/min\/scripts-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_in\/js\/scripts.js",
-		"outputAbbreviatedPath": "\/_out\/scripts-min.js",
+		"inputAbbreviatedPath": "\/_in\/js\/min\/scripts-min.js",
+		"outputAbbreviatedPath": "\/_in\/_out\/scripts-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
+	"\/_in\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_in\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/_in\/js\/min\/scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
 	"\/_in\/page-head.kit": {
 		"fileType": 2048,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_in\/page-head.kit",
 		"outputAbbreviatedPath": "\/_out\/page-head.html",
 		"outputPathIsOutsideProject": 0,
@@ -96,8 +107,8 @@
 		},
 	"\/_in\/panel-test.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_in\/panel-test.kit",
 		"outputAbbreviatedPath": "\/_out\/panel-test.html",
 		"outputPathIsOutsideProject": 0,
@@ -114,7 +125,7 @@
 		"outputAbbreviatedPath": "\/_out\/_animate.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -130,7 +141,7 @@
 		"outputAbbreviatedPath": "\/_out\/_clock.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -146,7 +157,7 @@
 		"outputAbbreviatedPath": "\/_out\/_config.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -162,7 +173,23 @@
 		"outputAbbreviatedPath": "\/_out\/_draft.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/_in\/sass\/_functions.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_in\/sass\/_functions.scss",
+		"outputAbbreviatedPath": "\/_out\/_functions.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -178,7 +205,7 @@
 		"outputAbbreviatedPath": "\/_out\/_helpers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -194,7 +221,7 @@
 		"outputAbbreviatedPath": "\/_out\/_normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -210,7 +237,7 @@
 		"outputAbbreviatedPath": "\/_out\/_ui-BAK.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -226,7 +253,7 @@
 		"outputAbbreviatedPath": "\/_out\/_ui.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -242,13 +269,45 @@
 		"outputAbbreviatedPath": "\/_out\/_vars.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/_in\/sass\/styles.scss": {
+	"\/_in\/sass\/ie8andless.scss": {
 		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_in\/sass\/ie8andless.scss",
+		"outputAbbreviatedPath": "\/_out\/ie8andless.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/_in\/sass\/styles-min.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/_in\/sass\/styles-min.scss",
+		"outputAbbreviatedPath": "\/_out\/styles-min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/_in\/sass\/styles.scss": {
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -260,14 +319,14 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
+		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
-	"\/_out\/en-construction.html": {
-		"fileType": 8192,
+	"\/_out\/ie8andless.css": {
+		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_out\/en-construction.html",
+		"inputAbbreviatedPath": "\/_out\/ie8andless.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -402,25 +461,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_out\/panel-test.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_out\/panel-test.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_out\/scripts-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_out\/scripts-min.js",
-		"outputAbbreviatedPath": "\/_out\/scripts-min-min.js",
+		"outputAbbreviatedPath": "\/_out\/min\/scripts-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/_out\/styles.css": {
 		"fileType": 16,
@@ -436,11 +486,11 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_out\/swipe.js",
-		"outputAbbreviatedPath": "\/_out\/swipe-min.js",
+		"outputAbbreviatedPath": "\/_out\/min\/swipe-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/animate.css\/animate-config.json": {
 		"fileType": 524288,
@@ -487,11 +537,11 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/animate.css\/Gruntfile.js",
-		"outputAbbreviatedPath": "\/_out\/Gruntfile-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/animate.css\/min\/Gruntfile-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/animate.css\/package.json": {
 		"fileType": 524288,
@@ -1294,22 +1344,22 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/demos\/js\/jquery.ui.ipad.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/_out\/jquery.ui.ipad-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/demos\/js\/min\/jquery.ui.ipad-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery-touchswipe\/demos\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/demos\/js\/main.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/_out\/main-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/demos\/js\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery-touchswipe\/demos\/Options.html": {
 		"fileType": 8192,
@@ -1555,33 +1605,33 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/docs\/js\/accordion.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/_out\/accordion-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/docs\/js\/min\/accordion-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery-touchswipe\/docs\/js\/jquery-1.7.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/docs\/js\/jquery-1.7.2.min.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/_out\/jquery-1.7.2.min-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/docs\/js\/min\/jquery-1.7.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery-touchswipe\/docs\/js\/prettify.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/docs\/js\/prettify.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/_out\/prettify-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/docs\/js\/min\/prettify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery-touchswipe\/docs\/symbols\/$.fn.html": {
 		"fileType": 8192,
@@ -1678,22 +1728,22 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/jquery.touchSwipe.js",
-		"outputAbbreviatedPath": "\/_out\/jquery.touchSwipe-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/min\/jquery.touchSwipe-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery-touchswipe\/jquery.touchSwipe.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/jquery.touchSwipe.min.js",
-		"outputAbbreviatedPath": "\/_out\/jquery.touchSwipe.min-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/min\/jquery.touchSwipe.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/jquery-touchswipe\/package.json": {
 		"fileType": 524288,
@@ -1713,7 +1763,7 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-touchswipe\/README.md",
 		"maskEmailAddresses": 1,
@@ -1800,7 +1850,7 @@
 		"outputAbbreviatedPath": "\/_out\/_rem-to-px.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -1823,7 +1873,7 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/rem-to-px-revisited\/README.md",
 		"maskEmailAddresses": 1,
@@ -1845,8 +1895,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "www.petalesdelune-fleuriste.fr",
-	"displayValueWasSetByUser": 1,
+	"displayValue": "petalesdelune-fleuriste.fr",
+	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel"
 	},
 "projectSettings": {
@@ -2431,7 +2481,7 @@
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
-	"sassOutputStyle": 0,
+	"sassOutputStyle": 2,
 	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 0,

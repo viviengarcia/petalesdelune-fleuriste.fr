@@ -7,3 +7,6 @@ $debug: "False";
 // Indicate wich is the current @media rule
 $media-query-debug: "True";
 $media-query-debug: "False";
+
+// prevent the main stylesheet to output px only values (ie8andless.scss change this behavior for ie8 compatability)
+$px-only:false;
