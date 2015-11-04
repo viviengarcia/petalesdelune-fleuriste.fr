@@ -1,17 +1,10 @@
+// @codekit-prepend "jquery-2.1.4.js", "google.map.js", "jquery.touchSwipe.js";
+
+
 /*
-Add the code below to the bottom of your page, just before the closing </body> tag.
-Edit myLatlng and the other variables.
+ * Google Map Customization
+ */
 
-Find syntax for Features that can be styled here:
-
-https://developers.google.com/maps/documentation/javascript/reference#MapTypeStyleFeatureType
-
-Or use a service such as:
-
-http://software.stadtwerk.org/google_maps_colorizr/#
-http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
-https://developers.google.com/maps/documentation/javascript/tutorial
-*/
 var bittersMap = (function () {
 	var myLatlng = new google.maps.LatLng(45.316525, 1.337981),
 			mapCenter = new google.maps.LatLng(45.316525, 1.337981),
@@ -33,7 +26,6 @@ var bittersMap = (function () {
 				'</div>'+
 				'<h1 id="firstHeading" class="firstHeading">Pétales de Lune</h1>'+
 				'<div id="bodyContent"'+
-				// '<p>Sveavägen 98</p>'+
 				'</div>'+
 				'</div>',
 			infowindow = new google.maps.InfoWindow({
@@ -67,13 +59,11 @@ var bittersMap = (function () {
 
 bittersMap.init();
 
-// IS JS ON IN THIS FUCKING CHROME BROWSER ?
-// alert('JS ON');
 
 /*
-*	PANEL ANIMATION
-*
-*/
+ *	Animated panels  - triggering and manipulation
+ */
+
 $.noConflict();
 jQuery(document).ready(function($) {
 
@@ -121,7 +111,6 @@ jQuery(document).ready(function($) {
 		panel_background.delay('500').removeClass('cleared');
 	}
 
-
 	panel_openButton.click(function(e) {
 		e.preventDefault();
 		var tmpId = this.id;
@@ -133,7 +122,6 @@ jQuery(document).ready(function($) {
 		closePanel();
 	});
 
-
 	panel_background.click(function(e) {
 		e.preventDefault();
 		closePanel();
@@ -141,15 +129,4 @@ jQuery(document).ready(function($) {
 
 	panel_container.swipe(swipeOptions);
 
-});
-
-/*
-*	PANEL ANIMATION
-*
-*/
-
-jQuery(document).ready(function($) {
-	var viewport = $(window).width();
-	var pixelRatio = window.devicePixelRatio;
-	$('#media-query-debug').text(viewport + 'px - @' + pixelRatio + 'x');
 });
