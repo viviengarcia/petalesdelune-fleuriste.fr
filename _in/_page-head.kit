@@ -1,0 +1,34 @@
+<!-- @include vars -->
+
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+
+		<title><!-- $pagehome --></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="<!-- $pagehome -->">
+		<meta name="author" content="Vivien Garcia">
+
+		<!--[if (gt IE 8) | (IEMobile)]><!-->
+		<link rel="stylesheet" href="styles-min.css">
+		<!--<![endif]-->
+
+		<!-- Typekit -->
+		<script>
+			(function(d) {
+				var config = {
+					kitId: 'oqr0hkp',
+					scriptTimeout: 3000,
+					async: true
+				},
+				h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+			})(document);
+		</script>
+
+		<!-- IE8- Fallback for HTML5 & Rems units -->
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" href="ie8andless-min.css">
+		<script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>

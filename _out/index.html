@@ -9,11 +9,25 @@
 		<meta name="description" content="Accueil - Pétales de Lune, fleuriste créatrice à Chabrignac, Corrèze">
 		<meta name="author" content="Vivien Garcia">
 
-		<link rel="stylesheet" href="styles.css">
+		<!--[if (gt IE 8) | (IEMobile)]><!-->
+		<link rel="stylesheet" href="styles-min.css">
+		<!--<![endif]-->
 
-		<script src="https://use.typekit.net/oqr0hkp.js"></script>
-		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<!-- Typekit -->
+		<script>
+			(function(d) {
+				var config = {
+					kitId: 'oqr0hkp',
+					scriptTimeout: 3000,
+					async: true
+				},
+				h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+			})(document);
+		</script>
+
+		<!-- IE8- Fallback for HTML5 & Rems units -->
 		<!--[if lt IE 9]>
+		<link rel="stylesheet" href="ie8andless-min.css">
 		<script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.min.js"></script>
 		<![endif]-->
 	</head>
@@ -166,10 +180,11 @@
 </div>				</footer>
 			</div>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js"></script>
-		<script src="swipe.js"></script>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script> -->
 		<script src="scripts-min.js"></script>
+		<!-- <script src="https://use.typekit.net/oqr0hkp.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script> -->
 	</body>
 </html>
 
