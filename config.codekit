@@ -88,9 +88,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_in\/index.kit",
-		"outputAbbreviatedPath": "\/_out\/index.html",
+		"outputAbbreviatedPath": "\/_in\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/_in\/js\/google.map.js": {
 		"fileType": 64,
@@ -107,19 +107,33 @@
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
+<<<<<<< Updated upstream
 		"inputAbbreviatedPath": "\/_in\/js\/jquery-2.1.4.js",
 		"outputAbbreviatedPath": "\/_out\/jquery-2.1.4-min.js",
+=======
+		"inputAbbreviatedPath": "\/_in\/page-head.kit",
+		"outputAbbreviatedPath": "\/_in\/page-head.html",
+>>>>>>> Stashed changes
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
 		},
+<<<<<<< Updated upstream
 	"\/_in\/js\/jquery.touchSwipe.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_in\/js\/jquery.touchSwipe.js",
 		"outputAbbreviatedPath": "\/_out\/jquery.touchSwipe-min.js",
+=======
+	"\/_in\/panel-test.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_in\/panel-test.kit",
+		"outputAbbreviatedPath": "\/_in\/panel-test.html",
+>>>>>>> Stashed changes
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
@@ -308,6 +322,25 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
+<<<<<<< Updated upstream
+=======
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
+		},
+	"\/_in\/sass\/styles-min.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_in\/sass\/styles-min.scss",
+		"outputAbbreviatedPath": "\/_out\/styles-min-min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+>>>>>>> Stashed changes
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 1
@@ -330,7 +363,7 @@
 		},
 	"\/_out\/ie8andless-min.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_out\/ie8andless-min.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -460,7 +493,7 @@
 		},
 	"\/_out\/index.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_out\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -469,7 +502,7 @@
 		},
 	"\/_out\/scripts-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_out\/scripts-min.js",
 		"outputAbbreviatedPath": "\/_out\/scripts-min-min.js",
@@ -480,13 +513,27 @@
 		},
 	"\/_out\/styles-min.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_out\/styles-min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< Updated upstream
+=======
+	"\/_out\/swipe.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_out\/swipe.js",
+		"outputAbbreviatedPath": "\/_out\/swipe-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+>>>>>>> Stashed changes
 	"\/bower_components\/animate.css\/animate-config.json": {
 		"fileType": 524288,
 		"ignore": 1,
